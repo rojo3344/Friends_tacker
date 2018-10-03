@@ -1,0 +1,31 @@
+
+<div class="container form_container">
+  <div class="row jumbotron add_form_jumbotron">
+    <h3 class="text-center h2">Add A New Contact</h3>
+    <form class="form-horizontal" >
+      <div class="form-group">
+        <label class="control-label col-sm-3" name="fullName">Full Name:</label>
+        <div class="col-sm-6 ">
+          <input type="text" class="form-control" ng-model="name"  placeholder="Enter the Full Name" name="name">
+        </div>
+      </div><div class="form-group">
+      <label class="control-label col-sm-3" >Email:</label>
+      <div class="col-sm-6 ">
+        <input type="email" class="form-control" ng-model="email"  placeholder="Enter email" name="email">
+      </div>
+    </div>
+      <div class="form-group">
+        <label class="control-label col-sm-3" >Phone Number:</label>
+        <div class="col-sm-6 ">
+          <input type="phone" class="form-control" ng-model="phone"  placeholder="Enter a valid number" name="phone">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-11">
+          <button type="submit" class="btn btn-default" ng-click="addNewPerson()">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+
+<div class="container ">
+    <div class="row jumbotron_filter">
+      <div class="jumbotron  col-md-6 col-md-offset-3 ">
+          <h5 class="text-center">Filter by date</h5>
+          <input id="daterange" class="inputfield col-md-6 col-md-offset-3 col-xs-offset-4"
+                 name="daterange" type="text"  value="01/01/2018 - 01/15/2018" />
+      </div>
+    </div>
+
+    <div class="row">
+        <h2>Friends tracker</h2>
+        <div class="panel-group">
+            <div class="panel panel-success">
+                <div class="panel-heading">My Friends</div>
+                <div class="panel-body">
+                    <table ng-table="listModel" class="table table-striped text-center">
+
+                        <tbody>
+                            <tr  ng-repeat="myData in $data" >
+                                <td data-title="'Full name'"
+                                    filter="{name: 'text'}" sortable = "'name'"
+                                    class="name_column" ng-click = "displayDetails($index)"> <a href="">{{myData.name}}</a></td>
+                                <td data-title="'Email'" >{{myData.email}}</td>
+                                <td data-title="'Phone'">{{myData.phone}}</td>
+                                <td data-title="'Interaction'" sortable = "'lastInteraction'">{{myData.lastInteraction}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3>Interaction Details <span class="selected_person">{{selectedPerson}}</span></h3>
+                </div>
+                <div class="panel-body" ><span ng-repeat="dateList in interactionDetails">{{dateList + "  ||  "}} </span></div>
+            </div>
+        </div>
+    </div>
+</div>
