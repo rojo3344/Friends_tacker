@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1adb08f9-1318-437d-8fd1-5e91d9ddc40f" name="Default" comment="">
+    <list default="true" id="1adb08f9-1318-437d-8fd1-5e91d9ddc40f" name="Default" comment="Added .gitattribute file to fix languange issue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,6 +30,27 @@
         <counts>
           <entry key="project.open.time.19" value="1" />
           <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitattributes" value="13" />
+          <entry key="txt" value="61" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitattributes" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -66,11 +87,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view1/view1.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -112,6 +142,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -135,6 +166,7 @@
         <option value="$PROJECT_DIR$/app/view2/view2.js" />
         <option value="$PROJECT_DIR$/app/view1/view1.html" />
         <option value="$PROJECT_DIR$/app/view1/view1.js" />
+        <option value="$PROJECT_DIR$/.gitattributes" />
       </list>
     </option>
   </component>
@@ -208,35 +240,7 @@
               <item name="friends_c" type="b2602c69:ProjectViewProjectNode" />
               <item name="friends_c" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-              <item name="html5-boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="friends_c" type="b2602c69:ProjectViewProjectNode" />
-              <item name="friends_c" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-              <item name="html5-boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="friends_c" type="b2602c69:ProjectViewProjectNode" />
-              <item name="friends_c" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-              <item name="html5-boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="friends_c" type="b2602c69:ProjectViewProjectNode" />
-              <item name="friends_c" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-              <item name="html5-boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,7 +319,7 @@
       <workItem from="1538507497218" duration="44196000" />
       <workItem from="1538602716097" duration="633000" />
       <workItem from="1538669923083" duration="77000" />
-      <workItem from="1542462707532" duration="402000" />
+      <workItem from="1542462707532" duration="1387000" />
     </task>
     <task id="LOCAL-00001" summary="First draft of friends tracking app">
       <created>1538587072095</created>
@@ -331,11 +335,25 @@
       <option name="project" value="LOCAL" />
       <updated>1538596302334</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added .gitattribute file to fix languange issue">
+      <created>1542463718922</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542463718922</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added .gitattribute file to fix languange issue">
+      <created>1542463900011</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542463900011</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99086000" />
+    <option name="totallyTimeSpent" value="100071000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,8 +366,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="23" width="1400" height="793" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4950495" visible="true" weight="0.20471281" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4950495" visible="true" weight="0.21281296" />
       <window_info id="Structure" order="1" sideWeight="0.5049505" side_tool="true" weight="0.15832107" />
       <window_info id="npm" order="2" sideWeight="0.50111854" side_tool="true" weight="0.2496318" />
       <window_info id="Favorites" order="3" sideWeight="0.5033557" side_tool="true" weight="0.2533137" />
@@ -362,7 +381,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32882884" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4992636" visible="true" weight="0.27960056" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4992636" visible="true" weight="0.27960056" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4992636" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50073636" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -379,7 +398,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First draft of friends tracking app" />
-    <option name="LAST_COMMIT_MESSAGE" value="First draft of friends tracking app" />
+    <MESSAGE value="Added .gitattribute file to fix languange issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added .gitattribute file to fix languange issue" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/components/version/version_test.js">
@@ -512,6 +532,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
